@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="container-global">
+        <h1 class="titulo-verificador">Verificador de idade</h1>
+          <form action="">
+            <div> 
+            <label class="label-ano-1">Ano de nascimento:</label>
+            <input class="input-ano-1" type="number" name="idade" id="idade" placeholder="Seu ano aqui" required>
+            </div>
+            <div class="container-radio-sexo">
+             <label class="label-sexo">Sexo:</label>
+            <input  type="radio" id="sexo-m" name="sexo" value="Masculino" checked>
+            <label class="label-sexo-information-m">Masculino</label>
+            <input class="input-sexo-f" type="radio" id="sexo-f" name="sexo" value="Feminino" >
+            <label class="label-sexo-information-f">Feminino</label>
+            </div>
+          
+            <button  class="input-submit" type="submit">Verificar</button>
+            <div id="res"></div>
+          </form>
+          
+       
+    </div>
+
+    <script src="index.js"></script>
+
+ 
+</body>
+</html>
