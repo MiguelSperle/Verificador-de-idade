@@ -101,3 +101,36 @@ body {
     background-color: cornflowerblue;
     color: white;
 }
+
+
+
+@media (max-width: 425px){
+    
+    .titulo-verificador {
+        text-align: center;
+    }
+
+    #container-global form {
+        width: 400px;
+        height: 420px;
+    }
+    
+}
+
+@media (max-width: 375px){
+    
+    .titulo-verificador {
+        text-align: center;
+    }
+
+
+    #container-global form {
+        width: 350px;
+     
+    }
+
+    .container-radio-sexo {
+        white-space: nowrap;
+    }
+    
+}
