@@ -102,6 +102,10 @@ body {
     color: white;
 }
 
+#res {
+    position: relative;
+    top: 15px;
+}
 
 
 @media (max-width: 425px){
@@ -134,3 +138,4 @@ body {
     }
     
 }
+
