@@ -31,44 +31,44 @@ let res = document.querySelector('#res') // conectei onde vai aparecer a respost
       img.style.width = '200px'
       img.style.height = '180px'
       img.style.borderRadius = '50%'
-      img.style.marginTop = '10px'
+      
       res.innerHTML = `Olá detectamos um ${genero} com ${idade}`
       res.style.display = 'flex'
       res.style.flexDirection = 'column'
-      res.style.marginTop = '20px'
+     
       res.style.fontWeight = '600'
     } else if (idade > 10 && idade <= 17){ // To verificando a idade, dependendo da idade vai aparecer tal foto do homem
       img.setAttribute('src', 'img/fotojovem.jpg')
       img.style.width = '200px'
       img.style.height = '180px'
       img.style.borderRadius = '50%'
-      img.style.marginTop = '10px'
+     
       res.innerHTML = `Olá detectamos um ${genero} com ${idade}`
       res.style.display = 'flex'
       res.style.flexDirection = 'column'
-      res.style.marginTop = '20px'
+  
       res.style.fontWeight = '600'
     } else if(idade > 17 && idade <= 55){ // To verificando a idade, dependendo da idade vai aparecer tal foto do homem
       img.setAttribute('src', 'img/fotoadulto.jpg')
       img.style.width = '200px'
       img.style.height = '180px'
       img.style.borderRadius = '50%'
-      img.style.marginTop = '10px'
+     
       res.innerHTML = `Olá detectamos um ${genero} com ${idade}`
       res.style.display = 'flex'
       res.style.flexDirection = 'column'
-      res.style.marginTop = '20px'
+
       res.style.fontWeight = '600'
     } else if(idade > 55 && idade <= 102){ // To verificando a idade, dependendo da idade vai aparecer tal foto do homem
       img.setAttribute('src', 'img/fotosenhor.jpg')
       img.style.width = '200px'
       img.style.height = '180px'
       img.style.borderRadius = '50%'
-      img.style.marginTop = '10px'
+     
       res.innerHTML = `Olá detectamos um ${genero} com ${idade}`
       res.style.display = 'flex'
       res.style.flexDirection = 'column'
-      res.style.marginTop = '20px'
+    
       res.style.fontWeight = '600'
     } 
      
@@ -83,44 +83,36 @@ let res = document.querySelector('#res') // conectei onde vai aparecer a respost
         img.style.width = '200px'
         img.style.height = '180px'
         img.style.borderRadius = '50%'
-        img.style.marginTop = '10px'
         res.innerHTML = `Olá detectamos uma ${genero} com ${idade}`
         res.style.display = 'flex'
         res.style.flexDirection = 'column'
-        res.style.marginTop = '20px'
         res.style.fontWeight = '600'
       } else if (idade > 10 && idade <= 17){  // To verificando a idade, dependendo da idade vai aparecer tal foto da mulher
         img.setAttribute('src', 'img/fotomulherjovem.jpg')
         img.style.width = '200px'
         img.style.height = '180px'
         img.style.borderRadius = '50%'
-        img.style.marginTop = '10px'
         res.innerHTML = `Olá detectamos uma ${genero} com ${idade}`
         res.style.display = 'flex'
         res.style.flexDirection = 'column'
-        res.style.marginTop = '20px'
         res.style.fontWeight = '600'
       } else if(idade > 17 && idade <= 55){ // To verificando a idade, dependendo da idade vai aparecer tal foto da mulher
         img.setAttribute('src', 'img/fotomulheradulta.jpg')
         img.style.width = '200px'
         img.style.height = '180px'
         img.style.borderRadius = '50%'
-        img.style.marginTop = '10px'
         res.innerHTML = `Olá detectamos uma ${genero} com ${idade}`
         res.style.display = 'flex'
         res.style.flexDirection = 'column'
-        res.style.marginTop = '20px'
         res.style.fontWeight = '600'
       } else if (idade > 55 && idade <= 102){ // To verificando a idade, dependendo da idade vai aparecer tal foto da mulher
         img.setAttribute('src', 'img/fotomulhersenhora.jpg')
         img.style.width = '200px'
         img.style.height = '180px'
         img.style.borderRadius = '50%'
-        img.style.marginTop = '10px'
         res.innerHTML = `Olá detectamos uma ${genero} com ${idade}`
         res.style.display = 'flex'
         res.style.flexDirection = 'column'
-        res.style.marginTop = '20px'
         res.style.fontWeight = '600' 
         
       }
