@@ -123,4 +123,3 @@ let res = document.querySelector('#res') // conectei onde vai aparecer a respost
 
 
 
-
